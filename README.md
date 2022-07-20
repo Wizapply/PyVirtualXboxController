@@ -7,18 +7,28 @@ VirtualXboxController for Python
 …仮想コントローラーを動作させるプログラム(32bit)
 * `VirtualController64.py`
 …仮想コントローラーを動作させるプログラム(64bit)
-* `vGenInterface32.dll`
-…vGenライブラリ(32bit)
-* `vGenInterface64.dll`
-…vGenライブラリ(64bit)
+* `External/vGenInterface32.dll`
+…vGenライブラリ(32bit)ビルド済み
+https://github.com/shauleiz/vGen
+* `External/vGenInterface64.dll`
+…vGenライブラリ(64bit)ビルド済み
+https://github.com/shauleiz/vGen
 
-# 使用パッケージ
+## 使用パッケージ
 * `Kivy`
 …GUIライブラリ
 * `threading`
 …マルチスレッド用ライブラリ
 * `ctypes`
 …C互換用ライブラリ
+
+## 使用SDK
+* `vJoy`
+…仮想コントローラー用
+https://sourceforge.net/projects/vjoystick/?source=directory
+* `UCR`
+…仮想コントローラーのキーマッピング用
+https://inoookov.hatenablog.com/entry/2020/05/18/143935
 
 # ソースコードについて
 * `class RootWidget(FloatLayout)`
