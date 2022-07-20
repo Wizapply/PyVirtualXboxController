@@ -12,7 +12,7 @@ VirtualXboxController for Python
 * `vGenInterface64.dll`
 …vGenライブラリ(64bit)
 
-## 使用パッケージ
+# 使用パッケージ
 * `Kivy`
 …GUIライブラリ
 * `threading`
