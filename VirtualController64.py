@@ -1,5 +1,4 @@
 
-from tkinter.messagebox import NO
 from kivy.base import runTouchApp
 from kivy.app import App
 from kivy.uix.button import Label, Button
