@@ -30,6 +30,12 @@ https://sourceforge.net/projects/vjoystick/?source=directory
 …仮想コントローラーのキーマッピング用
 https://inoookov.hatenablog.com/entry/2020/05/18/143935
 
+## 動作確認済みバージョン
+* Python 3.7
+* Python 3.8
+* Python 3.9
+* Python 3.10
+
 # ソースコードについて
 * `class RootWidget(FloatLayout)`
 … UI配置用クラス
